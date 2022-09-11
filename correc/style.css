@@ -1,0 +1,139 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	width:1200px;
+	height:100%;
+	margin:0px auto;
+	display:inline-block;
+}
+h3,h4,h1,h2,h5,h6{
+	font-family: 'Anton', sans-serif;
+
+}
+p, span,button, a{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration:none;
+}
+.social{
+	background-color:#F5F7FA;
+	float:right;
+	font-size:10px;
+}
+.myNavbar img{	
+  margin:15px;
+ width:80px;
+  height:100%px;
+text-align:left;
+}
+.myNavbar {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+.myNavbar nav{
+    height:80px;
+}
+button{
+	padding: 10px 30px;
+    border: 2px solid #16A085;
+    background-color: #16A085;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+	cursor:pointer;
+	font-weight:bold;
+}
+button:hover{
+	background-color:transparent;
+	color:#16A085
+}
+
+	
+	
+	
+.myNavbar ul{
+	list-style:none;
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+.myNavbar ul li{
+	display:inline-block;
+	height:100%;
+	margin:0px 5px;
+}
+.myNavbar ul li a{
+	display:inline-block;
+	padding:0px 10px;
+	color:violet;
+	text-transform:uppercase;
+	font-size:11px;
+	height:100%;
+	line-height:80px;
+}
+.myNavbar ul li a:hover{
+color:#16A085;}
+
+.myNavbar img{
+	
+  margin:40px 20px;
+ 
+  position:absolute;
+  text-align:left;
+
+}
+.heroSection{
+    background-image:url("heroImg.jpg");
+	height:100vh;
+	width:100%;
+	display:inline-block;
+	background-size:100% 100%;
+    position:relative;
+	}
+.heroTitle{
+	position:absolute;
+	left:0;
+	right:0;
+	top:35%;
+	color:white;
+	text-align:center;
+	
+}
+.heroTitle h1{
+	font-size: 60px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+}
+.heroTitle p{
+	font-size: 25px;
+    margin: 0 0 20px;
+   
+}
+.passion .container{
+	width:100%;
+	height:100vh;
+}
+.passion h3{
+	color:#A3B1BF;
+	float:left;
+	margin-left:6px;
+	padding:20px;
+} 
+.passion p{
+ 	margin:10px;
+	padding:20px;
+}
+.passion p >i{
+	color:#A9E8DE;
+font-size:40px;}
+.passion h1:nth-child(1){
+	font-size:30px;
+	color:#A3B1BF;
+}
